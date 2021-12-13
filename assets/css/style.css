@@ -74,7 +74,7 @@ nav img {
   font-size: 14px;
   color: #fff;
 }
-.text-box a {
+.hero-btn {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -86,7 +86,7 @@ nav img {
   position: relative;
 }
 
-.text-box a:hover {
+.hero-btn:hover {
   border: 1px solid #f44336;
   background-color: #f44336;
   transition: 1s;
@@ -331,9 +331,74 @@ nav .fas {
 }
 
 @media (max-width: 768px) {
-.tetimonial-col img {
-  margin-left: 0px;
-  margin-right: 15px;
-}}
+  .tetimonial-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+
+/*#endregion */
+
+/*#region testimonials*/
+.cta {
+  width: 80%;
+  margin: 100px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/banner2.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .cta h1 {
+    font-size: 24px;
+  }
+}
+/*#endregion */
+
+/*#region footer*/
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin: 25px 0 20px;
+  font-weight: 600;
+}
+
+.icons .fab {
+  font-size: 30px;
+  color: #f44336;
+  margin: 0 13px;
+  padding: 18px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icons .fa-facebook-square:hover {
+  color: #3b5998;
+}
+.icons .fa-twitter-square:hover {
+  color: #00acee;
+}
+.icons .fa-instagram-square:hover {
+  color: #3f729b;
+}
+.icons .fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+@media (max-width: 768px) {
 }
 /*#endregion */
