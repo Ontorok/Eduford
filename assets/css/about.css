@@ -115,6 +115,10 @@ nav .fas {
 .about-col p {
   padding: 15px 0 25px;
 }
+.about-col *::selection {
+  color: #fff;
+  background-color: #f44336;
+}
 
 .red-btn {
   border: 1px solid #f44336;
