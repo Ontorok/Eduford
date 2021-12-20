@@ -28,6 +28,15 @@
   background-color: #f44336;
 }
 
+.red-btn {
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+}
+.red-btn:hover {
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .row {
     flex-direction: column;
