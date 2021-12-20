@@ -72,7 +72,7 @@ nav .fas {
   }
 
   .sub-header .nav-links {
-    position: absolute;
+    position: fixed;
     background-color: #f44336;
     width: 200px;
     height: 100vh;
